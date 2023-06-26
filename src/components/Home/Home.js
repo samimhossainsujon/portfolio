@@ -4,6 +4,7 @@ import animationData from '../../assets/97639-coding.json';
 import Lottie from "lottie-react";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -45,12 +46,21 @@ function Home() {
 
 
             <div>
-                <About/>
+                <About />
             </div>
 
 
             <div className="mt-10">
-               <Projects/>
+                <Projects />
+            </div>
+
+            <div className="flex justify-center items-center mb-5 mt-4">
+                <Link to='/projects'>
+                    <button
+                        className="btn btn-outline btn-secondary">
+                        See More
+                    </button>
+                </Link>
             </div>
 
 
