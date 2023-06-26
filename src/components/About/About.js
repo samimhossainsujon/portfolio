@@ -76,36 +76,36 @@ const About = () => {
 
                 <div className='flex gap-6 mt-5'>
                     <Link to=''>
-                        <button className="btn btn-square btn-outline btn-secondary">
+                        <button className="btn btn-square btn-lg btn-outline btn-secondary">
                             <AiOutlineGithub/>
                         </button>
                     </Link>
 
 
                     <Link to=''>
-                        <button className="btn btn-square btn-outline btn-secondary">
+                        <button className="btn btn-square  btn-lg btn-outline btn-secondary">
                             <AiFillLinkedin/>
                         </button>
                     </Link>
 
 
                     <Link to=''>
-                        <button className="btn btn-square btn-outline btn-secondary">
+                        <button className="btn btn-square btn-lg btn-outline btn-secondary">
                             <AiFillTwitterCircle/>
                         </button>
                     </Link>
 
 
                     <Link to=''>
-                        <button className="btn btn-square btn-outline btn-secondary">
+                        <button className="btn btn-square btn-lg btn-outline btn-secondary">
                             <BsFacebook/>
                         </button>
                     </Link>
 
 
                     <Link to=''>
-                        <button className="btn btn-square btn-outline btn-secondary">
-                            <BsFacebook/>
+                        <button className="btn btn-square btn-outline btn-lg btn-secondary">
+                            <FaInstagramSquare/>
                         </button>
                     </Link>
 
