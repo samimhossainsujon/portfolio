@@ -6,13 +6,13 @@ import resume from '../../assets/SAMIMHOSSAINSUJONRESUME.pdf'
 
 const NavigationBar = () => {
 
-    const handleDownload = () => {
-        const downloadUrl = {resume};
-        const link = document.createElement('a');
-        link.href = downloadUrl;
-        link.download = 'SAMIM HOSSAIN SUJON RESUME.pdf';
-        link.click();
-      };
+    // const handleDownload = () => {
+    //     const downloadUrl = { resume };
+    //     const link = document.createElement('a');
+    //     link.href = downloadUrl;
+    //     link.download = 'SAMIM HOSSAIN SUJON RESUME.pdf';
+    //     link.click();
+    // };
 
 
 
@@ -51,12 +51,19 @@ const NavigationBar = () => {
                         {webMenu}
                     </ul>
                 </div>
+                
                 <div className="navbar-end">
-                    <button
-                        onClick={handleDownload}
-                        className="btn btn-outline btn-secondary">
-                        Download Resume
-                    </button>
+                   
+                    <a href={resume}
+                        download="SAMIM HOSSAIN SUJON RESUME.pdf" >
+                        <button
+
+                            className="btn btn-outline btn-secondary">
+                            Download Resume
+                        </button>
+
+                    </a>
+
                 </div>
             </div>
         </div>

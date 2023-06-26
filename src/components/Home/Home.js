@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import { Link } from "react-router-dom";
+import resume from '../../assets/SAMIMHOSSAINSUJONRESUME.pdf'
 
 
 function Home() {
@@ -30,10 +31,17 @@ function Home() {
                         skills for self and company growth. I always like to learn new
                         things and have experience with new stuff.</p>
 
-                    <button
-                        className="btn btn-outline btn-secondary mt-5">
-                        Download Resume
-                    </button>
+                    <div className="mt-5">
+                        <a href={resume}
+                            download="SAMIM HOSSAIN SUJON RESUME.pdf" >
+                            <button
+
+                                className="btn btn-outline btn-secondary">
+                                Download Resume
+                            </button>
+
+                        </a>
+                    </div>
 
 
                 </div>

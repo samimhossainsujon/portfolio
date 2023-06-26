@@ -15,7 +15,7 @@ const About = () => {
             </div>
 
             <div>
-                <h1 className='text-4xl font-extrabold'>About Me</h1>
+                <h1 className='text-4xl font-extrabold'>About <span className='text-red-500'>Me</span></h1>
                 <p className='text-black font-semibold text-base'>I am a MERN-Stack WEB Developer.
                     I am working with React, Node.js and MongoDB.
                     I also have experience in developing static websites
@@ -29,7 +29,7 @@ const About = () => {
                     Here are a few technologies I've been working with recently:</h1>
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-[#CC009C]'>Frontend</h1>
+                    <h1 className='text-2xl font-extrabold  text-red-500'>Frontend</h1>
                     <ul
                         className='text-black text-lg'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-[#CC009C]'>Backend</h1>
+                    <h1 className='text-2xl font-extrabold  text-red-500'>Backend</h1>
                     <ul
                         className='text-black text-lg font-semibold'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
@@ -56,7 +56,7 @@ const About = () => {
 
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-[#CC009C]'>Tools</h1>
+                    <h1 className='text-2xl font-extrabold  text-red-500'>Tools</h1>
                     <ul
                         className='text-black text-lg font-semibold'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
