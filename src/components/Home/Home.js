@@ -6,6 +6,7 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import { Link } from "react-router-dom";
 import resume from '../../assets/SAMIMHOSSAINSUJONRESUME.pdf'
+import Contact from "../Contact/Contact";
 
 
 function Home() {
@@ -58,17 +59,23 @@ function Home() {
             </div>
 
 
-            <div className="mt-10">
-                <Projects />
+            <div>
+                <div className="mt-10">
+                    <Projects />
+                </div>
+
+                <div className="flex justify-center items-center mb-5 mt-4">
+                    <Link to='/projects'>
+                        <button
+                            className="btn btn-outline btn-secondary">
+                            See More
+                        </button>
+                    </Link>
+                </div>
             </div>
 
-            <div className="flex justify-center items-center mb-5 mt-4">
-                <Link to='/projects'>
-                    <button
-                        className="btn btn-outline btn-secondary">
-                        See More
-                    </button>
-                </Link>
+            <div className="mt-10 mb-10 flex justify-center items-center">
+                <Contact />
             </div>
 
 

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <div className='flex gap-7 mt-2'>
+        <div data-aos="fade-left" className='flex gap-7 mt-2'>
             <div className='mt-16'>
                 <img className='rounded-lg' src={img} alt="" />
             </div>
@@ -29,7 +29,7 @@ const About = () => {
                     Here are a few technologies I've been working with recently:</h1>
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-red-500'>Frontend</h1>
+                    <h1 className='text-2xl font-extrabold'>Frontend</h1>
                     <ul
                         className='text-black text-lg'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-red-500'>Backend</h1>
+                    <h1 className='text-2xl font-extrabold'>Backend</h1>
                     <ul
                         className='text-black text-lg font-semibold'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
@@ -56,7 +56,7 @@ const About = () => {
 
 
                 <div>
-                    <h1 className='text-2xl font-extrabold  text-red-500'>Tools</h1>
+                    <h1 className='text-2xl font-extrabold  '>Tools</h1>
                     <ul
                         className='text-black text-lg font-semibold'
                         style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
