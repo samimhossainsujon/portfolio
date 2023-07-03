@@ -12,9 +12,10 @@ import Contact from "../Contact/Contact";
 function Home() {
     return (
         <div className="mt-10">
-            <div className="flex gap-5">
+            <div className="grid md:grid-cols-2 gap-5">
                 <div className="animated-typing">
-                    <h1 className="title text-3xl font-extrabold mb-2">Hi, I’m <br />Md Samim Hossain Sujon</h1>{" "}
+                    <h1 className="title text-3xl font-extrabold mb-2">
+                    Hi, I’m <br />Md Samim Hossain Sujon</h1>{" "}
                     <Typed
                         className="text-[#F9004D] font-bold text-xl"
                         strings={[

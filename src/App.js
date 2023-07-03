@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className="px-16">
+    <div className='w-11/12 md:10/12 mx-auto'>
       <NavigationBar />
       <Outlet />
       <Footer />

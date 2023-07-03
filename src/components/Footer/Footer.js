@@ -10,40 +10,26 @@ const Footer = () => {
         <div>
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                 <div>
-                    <div className='flex gap-6 mt-5'>
-                        <Link to=''>
+                    <div className='grid grid-cols-3  gap-5'>
+                        <Link to='https://github.com/samimhossainsujon'>
                             <button className="btn btn-square btn-lg btn-outline btn-secondary">
                                 <AiOutlineGithub />
                             </button>
                         </Link>
 
 
-                        <Link to=''>
+                        <Link to='https://www.linkedin.com/in/samimhossainsujon/'>
                             <button className="btn btn-square  btn-lg btn-outline btn-secondary">
                                 <AiFillLinkedin />
                             </button>
                         </Link>
 
 
-                        <Link to=''>
+                        <Link to='https://twitter.com/samimhossain_s'>
                             <button className="btn btn-square btn-lg btn-outline btn-secondary">
                                 <AiFillTwitterCircle />
                             </button>
-                        </Link>
-
-
-                        <Link to=''>
-                            <button className="btn btn-square btn-lg btn-outline btn-secondary">
-                                <BsFacebook />
-                            </button>
-                        </Link>
-
-
-                        <Link to=''>
-                            <button className="btn btn-square btn-outline btn-lg btn-secondary">
-                                <FaInstagramSquare />
-                            </button>
-                        </Link>
+                        </Link>                       
 
 
                     </div>

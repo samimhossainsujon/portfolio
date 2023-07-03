@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <div data-aos="fade-left" className='flex gap-7 mt-2'>
+        <div data-aos="fade-left" className='grid md:grid-cols-2  gap-5 mt-2'>
             <div className='mt-16'>
                 <img className='rounded-lg' src={img} alt="" />
             </div>
@@ -31,8 +31,10 @@ const About = () => {
                 <div>
                     <h1 className='text-2xl font-extrabold'>Frontend</h1>
                     <ul
-                        className='text-black text-lg'
-                        style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
+                        className='text-black text-lg flex gap-3 flex-row flex-wrap  list-none'
+
+                    >
+
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> JavaScript(ES6)</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> React.js</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> React Bootstrap</li>
@@ -44,8 +46,8 @@ const About = () => {
                 <div>
                     <h1 className='text-2xl font-extrabold'>Backend</h1>
                     <ul
-                        className='text-black text-lg font-semibold'
-                        style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
+                        className='text-black text-lg flex gap-3 flex-row flex-wrap  list-none'
+                    >
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> Node.js</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> Express.js</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> MongoDB</li>
@@ -58,8 +60,7 @@ const About = () => {
                 <div>
                     <h1 className='text-2xl font-extrabold  '>Tools</h1>
                     <ul
-                        className='text-black text-lg font-semibold'
-                        style={{ display: 'flex', gap: '10px', flexDirection: 'row', listStyleType: 'none' }}>
+                        className='text-black text-lg flex gap-3 flex-row flex-wrap  list-none'>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span> VS Code</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span>Git</li>
                         <li><span style={{ color: '#CC009C' }}>&#9679;</span>Chrome Dev Tool</li>
@@ -75,37 +76,23 @@ const About = () => {
 
 
                 <div className='flex gap-6 mt-5'>
-                    <Link to=''>
+                    <Link to='https://github.com/samimhossainsujon'>
                         <button className="btn btn-square btn-lg btn-outline btn-secondary">
-                            <AiOutlineGithub/>
+                            <AiOutlineGithub />
                         </button>
                     </Link>
 
 
-                    <Link to=''>
+                    <Link to='https://www.linkedin.com/in/samimhossainsujon/'>
                         <button className="btn btn-square  btn-lg btn-outline btn-secondary">
-                            <AiFillLinkedin/>
+                            <AiFillLinkedin />
                         </button>
                     </Link>
 
 
-                    <Link to=''>
+                    <Link to='https://twitter.com/samimhossain_s'>
                         <button className="btn btn-square btn-lg btn-outline btn-secondary">
-                            <AiFillTwitterCircle/>
-                        </button>
-                    </Link>
-
-
-                    <Link to=''>
-                        <button className="btn btn-square btn-lg btn-outline btn-secondary">
-                            <BsFacebook/>
-                        </button>
-                    </Link>
-
-
-                    <Link to=''>
-                        <button className="btn btn-square btn-outline btn-lg btn-secondary">
-                            <FaInstagramSquare/>
+                            <AiFillTwitterCircle />
                         </button>
                     </Link>
 
