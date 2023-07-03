@@ -10,9 +10,9 @@ import './Projects.css';
 
 
 const Projects = () => {
-    const img1 = 'https://i.ibb.co/8DqXS81/assinment12.png'
-    const img2 = 'https://i.ibb.co/6RN08zq/assinment10.png'
-    const img3 = 'https://i.ibb.co/wNwL9fg/assinment11.png'
+    const img1 = 'https://i.ibb.co/8DqXS81/assinment12.png';
+    const img2 = 'https://i.ibb.co/6RN08zq/assinment10.png';
+    const img3 = 'https://i.ibb.co/wNwL9fg/assinment11.png';
 
     return (
         <div>

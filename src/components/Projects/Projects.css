@@ -1,12 +1,11 @@
-/* YourComponent.css */
+
 .card {
-    /* Add your card styles here */
+
     position: relative;
     overflow: hidden;
   }
   
   .card:hover img {
-    /* Define the hover effect styles for the image */
     animation: scrollEffect 3s infinite linear;
   }
   
