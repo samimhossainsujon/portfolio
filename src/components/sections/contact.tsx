@@ -102,7 +102,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Rangpu, Bangladesh</p>
+                  <p className="text-muted-foreground">Rangpur, Bangladesh</p>
                 </div>
               </div>
             </div>
