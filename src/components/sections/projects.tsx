@@ -1,13 +1,15 @@
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
-import { PROJECTS } from "@/src/lib/constants";
+
+import { PROJECTS } from "@/lib/constants";
 import { motion } from "framer-motion";
 import { ExternalLinkIcon, GithubIcon } from "lucide-react";
-import { Badge } from "@/src/components/ui/badge";
-import { Button } from "@/src/components/ui/button";
+
 import { useEffect, useState } from "react";
-import { cn } from "@/src/lib/utils";
+import SectionHeading from "../ui/section-heading";
+import { cn } from "@/lib/utils";
+import { Badge } from "../ui/badge";
+import { Button } from "../ui/button";
 
 // Stagger animation variants
 const container = {

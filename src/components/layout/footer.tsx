@@ -1,10 +1,10 @@
 "use client";
 
-import { SOCIAL_LINKS } from "@/src/lib/constants";
-import { Avatar, AvatarFallback, AvatarImage } from "@/src/components/ui/avatar";
-import { Button } from "@/src/components/ui/button";
 import Link from "next/link";
 import { Github, Linkedin, Twitter, Instagram, ChevronUp } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { SOCIAL_LINKS } from "@/lib/constants";
+import { Button } from "../ui/button";
 
 const SOCIAL_ICONS: Record<string, React.ElementType> = {
   Github: Github,

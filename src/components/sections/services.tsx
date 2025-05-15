@@ -1,9 +1,10 @@
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
-import { SERVICE_ICONS, SERVICES } from "@/src/lib/constants";
+
 import { motion } from "framer-motion";
-import { cn } from "@/src/lib/utils";
+import SectionHeading from "../ui/section-heading";
+import { SERVICE_ICONS, SERVICES } from "@/lib/constants";
+import { cn } from "@/lib/utils";
 
 export default function ServicesSection() {
   const container = {

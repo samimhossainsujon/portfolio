@@ -1,15 +1,15 @@
+import { ThemeProvider } from '@/components/theme-provider';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/src/components/theme-provider';
-import Header from '@/src/components/layout/header';
-import Footer from '@/src/components/layout/footer';
-import BackToTop from '@/src/components/layout/back-to-top';
+import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
+import BackToTop from '@/components/layout/back-to-top';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'S@mim | MERN Stack Developer',
+  title: 's@mim | MERN Stack Developer',
   description: 'Professional portfolio of John Doe, a MERN Stack Developer specializing in creating modern, responsive web applications.',
 };
 

@@ -1,14 +1,15 @@
 "use client";
 
-import { NAV_LINKS } from "@/src/lib/constants";
-import { cn } from "@/src/lib/utils";
+
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggle from "./theme-toggle";
-import { Button } from "@/src/components/ui/button";
 import { CodeIcon } from "lucide-react";
 import { MobileNav } from "./mobile-nav";
+import { NAV_LINKS } from "@/lib/constants";
+import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState<string>("/");

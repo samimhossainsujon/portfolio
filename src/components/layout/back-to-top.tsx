@@ -1,10 +1,11 @@
 "use client";
 
-import { Button } from "@/src/components/ui/button";
-import { cn } from "@/src/lib/utils";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronUpIcon } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Button } from "../ui/button";
+import { cn } from "@/lib/utils";
 
 export default function BackToTop() {
   const [isVisible, setIsVisible] = useState(false);

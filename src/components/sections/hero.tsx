@@ -1,14 +1,15 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/src/components/ui/avatar";
-import { Button } from "@/src/components/ui/button";
-import { SOCIAL_LINKS } from "@/src/lib/constants";
+
 import { motion } from "framer-motion";
 import { ArrowRightIcon, DownloadIcon, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { ReactTyped } from "react-typed";
 import samimPic from "../Images/samim.jpg";
+import { Button } from "../ui/button";
+import { SOCIAL_LINKS } from "@/lib/constants";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 const SOCIAL_ICONS: Record<string, React.ElementType> = {
   github: Github,

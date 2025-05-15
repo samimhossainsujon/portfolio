@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
 import { motion } from "framer-motion";
-import { Button } from "@/src/components/ui/button";
 import Link from "next/link";
 import { ChevronsRightIcon } from "lucide-react";
 import samimPic from "../Images/samim.jpg";
+import SectionHeading from "../ui/section-heading";
+import { Button } from "../ui/button";
 
 
 export default function AboutSection() {

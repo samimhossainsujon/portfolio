@@ -1,12 +1,12 @@
 "use client";
 
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/src/components/ui/sheet";
-import { Button } from "@/src/components/ui/button";
 import { MenuIcon } from "lucide-react";
-import { NAV_LINKS } from "@/src/lib/constants";
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "../ui/sheet";
+import { Button } from "../ui/button";
+import { NAV_LINKS } from "@/lib/constants";
 
 const container = {
   hidden: { opacity: 0 },

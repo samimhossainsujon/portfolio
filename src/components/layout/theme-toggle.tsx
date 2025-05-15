@@ -1,10 +1,10 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Button } from "@/src/components/ui/button";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Button } from "../ui/button";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();

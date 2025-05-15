@@ -1,12 +1,12 @@
 'use client';
-
-import AboutSection from "@/src/components/sections/about";
-import ContactSection from "@/src/components/sections/contact";
-import ExperienceSection from "@/src/components/sections/experience";
-import HeroSection from "@/src/components/sections/hero";
-import ProjectsSection from "@/src/components/sections/projects";
-import ServicesSection from "@/src/components/sections/services";
-import SkillsSection from "@/src/components/sections/skills";
+import AboutSection from '@/components/sections/about';
+import ContactSection from '@/components/sections/contact';
+import ExperienceSection from '@/components/sections/experience';
+import HeroSection from '@/components/sections/hero';
+import ProjectsSection from '@/components/sections/projects';
+import ServicesSection from '@/components/sections/services';
+import SkillsSection from '@/components/sections/skills';
+import React from 'react';
 
 export default function Home() {
   return (

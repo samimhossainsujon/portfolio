@@ -1,12 +1,13 @@
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
-import { Progress } from "@/src/components/ui/progress";
-import { SKILLS } from "@/src/lib/constants";
-import { cn } from "@/src/lib/utils";
+
+import { SKILLS } from "@/lib/constants";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/src/components/ui/tabs";
+import SectionHeading from "../ui/section-heading";
+import { Tabs, TabsList, TabsTrigger } from "../ui/tabs";
+import { Progress } from "../ui/progress";
+import { cn } from "@/lib/utils";
 
 export default function SkillsSection() {
   const [activeTab, setActiveTab] = useState("all");

@@ -1,26 +1,19 @@
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
-import { Button } from "@/src/components/ui/button";
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/src/components/ui/form";
-import { Input } from "@/src/components/ui/input";
-import { Textarea } from "@/src/components/ui/textarea";
-import { SOCIAL_LINKS } from "@/src/lib/constants";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
-import { AtSignIcon, Github, Instagram, Linkedin, MailIcon, MapPinIcon, PhoneIcon, SendIcon, Twitter } from "lucide-react";
+import {  Github, Instagram, Linkedin, MailIcon, MapPinIcon, PhoneIcon, SendIcon, Twitter } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { Toaster } from "@/src/components/ui/sonner";
 import { toast } from "sonner";
+import { Toaster } from "../ui/sonner";
+import SectionHeading from "../ui/section-heading";
+import { SOCIAL_LINKS } from "@/lib/constants";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
+import { Button } from "../ui/button";
 
 const SOCIAL_ICONS: Record<string, React.ElementType> = {
   Github: Github,
@@ -156,7 +149,7 @@ export default function ContactSection() {
                         <FormItem>
                           <FormLabel>Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="John Doe" {...field} />
+                            <Input placeholder="S@mim Hossain" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>

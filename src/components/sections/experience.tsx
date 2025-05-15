@@ -1,11 +1,12 @@
 "use client";
 
-import SectionHeading from "@/src/components/ui/section-heading";
-import { EXPERIENCES } from "@/src/lib/constants";
-import { cn } from "@/src/lib/utils";
+
 import { motion } from "framer-motion";
 import { BriefcaseIcon, CalendarIcon } from "lucide-react";
-import { Badge } from "@/src/components/ui/badge";
+import SectionHeading from "../ui/section-heading";
+import { EXPERIENCES } from "@/lib/constants";
+import { cn } from "@/lib/utils";
+import { Badge } from "../ui/badge";
 
 export default function ExperienceSection() {
   return (
