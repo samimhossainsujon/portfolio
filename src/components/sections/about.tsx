@@ -11,7 +11,7 @@ import { Button } from "../ui/button";
 
 export default function AboutSection() {
   const achievements = [
-    { number: "5+", label: "Years Experience" },
+    { number: "2+", label: "Years Experience" },
     { number: "30+", label: "Projects Completed" },
     { number: "15+", label: "Happy Clients" },
     { number: "6+", label: "Awards" },
