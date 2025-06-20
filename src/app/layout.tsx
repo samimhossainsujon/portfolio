@@ -5,7 +5,8 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import BackToTop from '@/components/layout/back-to-top';
-
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -30,6 +31,8 @@ export default function RootLayout({
           <Header />
           <main className="min-h-screen">
             {children}
+            <Analytics />
+            <SpeedInsights />
           </main>
           <Footer />
           <BackToTop />
